@@ -27,13 +27,11 @@ public:
         temp -> next = NULL;
         if(head == NULL){
             head = temp;
-            tail = temp;
-            //delete temp;
+            tail = temp;            
         }
         else{
             tail -> next = temp;
             tail = temp;
-            //delete temp;
         }
     }
 
@@ -42,7 +40,6 @@ public:
         temp -> data = value;
         temp -> next = head;
         head = temp;
-        //delete temp;
     }
 
     void insert_position(T value,int position){
