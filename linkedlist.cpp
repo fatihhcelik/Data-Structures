@@ -111,6 +111,7 @@ public:
             len++;
             iter = iter -> next;
         }
+        delete iter;
         return len;
     }
 
