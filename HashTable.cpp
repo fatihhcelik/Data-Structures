@@ -106,4 +106,4 @@ int main()
     //And we just see last added element..
 }
 //I know,this might not be meaningful implementation and might have some situations not considered so it's just for learning. If you want
-to add something or warn me about wrong implementation, please open issue.
+//to add something or warn me about wrong implementation, please open issue.
